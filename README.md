@@ -49,6 +49,11 @@ Now, open your browser and go to **`http://127.0.0.1:5000/`** to view the blog. 
 
 ---
 
+![image_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/home_page.png)
+![image_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/posts.png)
+![image_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/post.png)
+![immage_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/footer.png)
+
 ## 📝 API Used  
 The blog fetches posts from the following API:  
 🔗 **https://api.npoint.io/d4656264c8ac08d072a5**  
