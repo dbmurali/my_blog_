@@ -48,16 +48,20 @@ Now, open your browser and go to **`http://127.0.0.1:5000/`** to view the blog. 
 ```
 
 ---
- ### Home Page
+
+## 📸 Screenshots  
+
+
+ ###  🏠Home Page
 ![image_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/home_page.png)
 
-### Posts 
+### 📝 Blog Posts
 ![image_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/posts.png)
 
 ### post content
 ![image_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/post.png)
 
-### Footer
+### 🔻 Footer
 ![immage_alt](https://github.com/dbmurali/my_blog_/blob/5be459eaa6cab44384c601c2d4b396bbf70f8999/footer.png)
 
 ## 📝 API Used  
