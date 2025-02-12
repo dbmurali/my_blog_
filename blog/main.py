@@ -1,4 +1,6 @@
+import json
 from datetime import datetime as dt
+from flask import Flask, render_template,request
 
 import requests
 
@@ -10,7 +12,6 @@ res=response.json()
 
 today=dt.now().date()
 
-from flask import Flask,render_template
 app=Flask(__name__)
 
 @app.route("/")
@@ -28,6 +29,22 @@ def pages(page):
 def post(index):
     post_no=res[index-1]
     return  render_template("post.html",post=post_no, date=today, bg_img=post_no["image_url"])
+
+@app.route("/submit",methods=['POST','GET'])
+def contact():
+   contacts={}
+   if request.method=="POST":
+       contacts={
+           "name": request.form["NAME"],
+           "e-mail":request.form["EMAIL"],
+           "phone_number":request.form["PHONE_NUMBER"],
+           "message":request.form["MSG"]
+       }
+   with open("contact.txt","a") as file:
+    file.write(str(contacts)+"\n")
+
+    return "<h1>FORM SUBMITTED</h1>"
+
 
 
 
